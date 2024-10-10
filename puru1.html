@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="puru2.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input id='user-input'type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="search-btn"><img src="images/search.png"></button>
+        </div>
+        <div class="weather">
+            <img  id="icon" src="images/rain.png">
+            <h1 id="temp">22°c</h1>
+            <h2 id="cityname">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p id="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p id="wind">15 km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="puru3.js"></script>
+</body>
+</html>
